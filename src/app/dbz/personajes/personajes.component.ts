@@ -6,5 +6,5 @@ import { Component, Input } from '@angular/core';
 })
 export class PersonajesComponent {
 
-  @Input('data') personajes: any[] = [];
+  @Input() personajes: any[] = [];
 }
